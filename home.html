@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Картинная галерея</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <link href="styleHome.css" rel="stylesheet">
+	  <script src="jquery-ui-1.12.1/jquery-ui.js"></script>
+	  <script src="https://code.jquery.com/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default" role= "navigation">
+	<div class="container-fluid">
+	 <div class="navbar-header">
+		<img src="logo2.png" class="logo">
+		<a class="navbar-brand first" href="#">Главная страница</a>
+		<a class="navbar-brand second" href="#">О создателе</a>
+	</div>
+		  <ul class="nav navbar-nav">
+	 		<li class="dropdown">
+	 			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Фотогалерея<b class="caret"></b></a>
+	 				<ul class="dropdown-menu">
+            			<li><a href="#">Шагал</a></li>
+            			<li class="divider"></li>
+            			<li><a href="#">Рубенс</a></li>
+            			<li class="divider"></li>
+            			<li><a href="#">Малевич</a></li>
+            			<li class="divider"></li>
+            			<li><a href="#">Дали</a></li>
+          			</ul>
+          	</li>
+          </ul>
+		</div>
+	</nav>
+	<div id="carousel-example-generic" class="carousel slide" data-ride= "carousel">
+		<ol class="carousel-indicators">
+			<li class="active" data-target= "#carousel-example-generic" data-slide-to="0"></li>
+			<li data-target= "#carousel-example-generic" data-slide-to="1"></li>
+			<li data-target= "#carousel-example-generic" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="slider1.jpg" alt="">
+				<div class="carousel-caption">
+					<h3>The Concert</h3>
+					<p>Mark Shagal, 1957</p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="slider2.jpg" alt="">
+				<div class="carousel-caption" >
+					<h3>Amoureux de Vence</h3>
+					<p>Mark Shagal</p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="slider3.jpg" alt="">
+				<div class="carousel-caption">
+					<h3>The Anthropomorphic Cabinet</h3>
+					<p>Salvador Dali, 1936</p>
+				</div>
+			</div>
+		</div>
+		<a href="#carousel-example-generic" class="left carousel-control" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		</a>
+		<a href="#carousel-example-generic" class="right carousel-control" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+		</a>
+	</div>
+<div class="container-fluid ">
+	<div class="row">
+		<div class="col-md-3" style=""  ></div>
+  		<div class="col-md-3" style=""  ></div>
+  		<div class="col-md-3" style=""  ></div>
+  		<div class="col-md-3" style=""  ></div>
+  		<div class="col-md-3" style=""  ></div>
+  		<div class="col-md-3" style=""  ></div>
+  		<div class="col-md-3" style=""  ></div>
+  		<div class="col-md-3" style=""  ></div>
+  		<div class="col-md-3" style=""  ></div>
+	</div>
+</div>
+</body>
+</html>
+
