@@ -1,19 +1,21 @@
 body{
-	background-image: url('http://setfon.com/large/201509/57099.jpg');
-		
+	background-image: url('concrete_wall_3.png');
+	background-repeat: repeat;
 }
 .logo{
 	left: 100px;
 }
+.navbar{
+	margin-bottom: 0px;
+}
 .navbar-brand{
 	position: absolute;
 	top: 0;
-    left: 250px;
+  left: 250px;
 }
 .navbar-brand:hover{
 	text-decoration: underline;
 }
-
 .navbar-nav{
 	position: relative;
 	top: 0;
@@ -31,39 +33,50 @@ body{
 }
 .carousel-caption{
 	position: absolute;
-    bottom: 55px;
-    left: 490px;
-    width: 200px;
-    margin-right: 5px;
-    z-index: 50;
-    padding: 12px;
-    color: #3D3D3D;
-    text-transform: uppercase;
-    background: #fff;
-    font-family: Arial,Helvetica,sans-serif;
-    font-size: 12px;
-    -moz-border-radius: 0 5px 5px 0;
-    border-radius: 0 5px 5px 0;
-    opacity: 0.8;
+  left: 0px;
+	height: 150px;
+  top: 0px;
+  width: 300px;
+  margin-right: 5px;
+  z-index: 50;
+  padding: 12px;
+  color: #3D3D3D;
+  text-transform: uppercase;
+  background: #fff;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  -moz-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+  opacity: 0.8;
 }
-.carousel-caption h3{
+.carousel-caption h3 p{
 	font-size: 14px;
-	display: inline;
+	display: block;
 }
 
 .carousel-control {
     background-image: none;
+    background-color: none;
 }
 .carousel-control:hover {
     background-image: none;
+    background-color: none;
 }
 .col-md-3{
 	height: 250px;
 	background-color: red; 
 	margin: 5px; 
-	border: 1px solid green; 
+	
 	left: 150px; top: 50px;
+	padding: 0px;
+
+}
+.col-md-3 img{
+	background-size:100% 100%;
+  height: 100%;
+  width: 100%;
 }
 .col-md-3:hover{
 	border: 2px solid white;
+	cursor: pointer;
 }

@@ -1,0 +1,103 @@
+body {
+	background: url('http://ramki-photoshop.ru/fony/fon-109.jpg');
+}
+.logo{
+	left: 100px;
+}
+.navbar-brand{
+	position: absolute;
+	top: 0;
+    left: 250px;
+}
+.navbar-brand:hover{
+	text-decoration: underline;
+}
+.navbar-nav{
+	position: relative;
+	top: 0;
+	left: 300px;
+	font-size: 18px;
+	float: left;
+}
+.second{
+	left: 600px;
+	top: 0;
+	float: left;
+}
+.photo {
+	animation: bounceInDown;
+	animation-duration: 8s;
+	width: 230px;
+	border: 1px solid white;
+	border-radius: 100%;
+}
+.name {
+	animation: bounceInLeft;
+	animation-duration: 8s;
+	font-family: 'Alex Brush';
+	font-size: 40px;
+	position: relative;
+	background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.main {
+	animation: fadeInLeftBig;
+	animation-duration: 4s;
+	font-family: 'crystal';
+	font-size: 30px;
+}
+.data {
+	animation: fadeInRightBig;
+	animation-duration: 5s;
+	font-family: 'chicago';
+	font-size: 18px;
+	margin-left: 50px;
+}
+h2 {
+	
+}
+.qa {
+	animation: zoomInDown;
+	animation-duration: 5s;
+	margin-left: 800px;
+	font-family: 'a_stamper';
+	font-size: 36px;
+	text-transform: uppercase;
+  	background: #2E2F45;
+  	display: table;
+  	margin: 20px auto;
+  	color: white;
+  	border-radius: 5px;
+  	mix-blend-mode: multiply;
+  	padding: 5px 10px;
+}
+.obj {
+	animation: slideInLeft;
+	animation-duration: 3s;
+	font-family: 'crystal';
+	font-size: 30px;
+	display: block;
+	border: 1px solid;
+	border-image: linear-gradient(20deg, #f92056 38%, #00deff 65%);
+	border-image-slice: 1;
+	padding: 5px;
+	background: rgba(0,0,0,.02);
+	color: #3577ba;
+}
+.obj1 {
+	animation: zoomInUp;
+	animation-duration: 6s;
+	font-family: 'chicago';
+	font-size: 18px;
+	color: #555d66;
+}
+.rollin {
+	animation:rollIn;
+	animation-duration: 5s;
+	font-family: 'irinactt';
+	font-size: 18px;
+	background: linear-gradient(20deg, #f92056 10%, #00deff 20%, #f92056 40%, #00deff 30%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
